@@ -16,3 +16,8 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/generate', 'GeneratorController@generatorForm')->name('form');
 
 Route::post('/generate', 'GeneratorController@generatePassword')->name('generate');
+
+if (!App::environment('production')) {
+    Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+}
+

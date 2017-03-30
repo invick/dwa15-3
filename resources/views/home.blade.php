@@ -9,10 +9,10 @@
             <source src="{{ asset('media/intro.mp4') }}" type="video/mp4">
         </video>
         <div class="container text-center">
-            <h1>Hello user!</h1>
+            <h1>Hello!</h1>
             <br>
             <p>Welcome to best password generator app under the sky!</p>
-            <p>Click following to generate your save password</p>
+            <p>Click following to generate your safe password</p>
             <br>
             <a href="{{ route('form') }}" class="btn btn-lg btn-primary">Generate password</a>
         </div>

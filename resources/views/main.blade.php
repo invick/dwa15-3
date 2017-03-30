@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <title>Password Generator</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">

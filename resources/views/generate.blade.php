@@ -43,9 +43,9 @@
                             <div class="col-sm-8">
                                 <select id="charset" name="charset" class="form-control">
                                     <option disabled selected>Select charset</option>
-                                    <option value="lower" {{ old('charset') == 'lower' ? 'checked' : '' }}>Lower Case (a-z)</option>
-                                    <option value="upper" {{ old('charset') == 'upper' ? 'checked' : '' }}>Upper Case (A-Z)</option>
-                                    <option value="lower_and_upper" {{ old('charset') == 'lower_and_upper' ? 'checked' : '' }}>Lower and upper Case (a-z & A-Z)</option>
+                                    <option value="lower" {{ old('charset') == 'lower' ? 'checked' : '' }}>Lower case (a-z)</option>
+                                    <option value="upper" {{ old('charset') == 'upper' ? 'checked' : '' }}>Upper case (A-Z)</option>
+                                    <option value="lower_and_upper" {{ old('charset') == 'lower_and_upper' ? 'checked' : '' }}>Lower and upper case (a-z & A-Z)</option>
                                 </select>
                             </div>
                         </div>
@@ -58,6 +58,8 @@
                                 <div class="checkbox">
                                     <label><input type="checkbox" name="specials" {{ old('special') ? 'checked' : '' }}> Use special characters (!?~@#-_+<>[]{})</label>
                                 </div>
+                                <br>
+                                <small>* fields required</small>
                             </div>
                         </div>
                         <br>
